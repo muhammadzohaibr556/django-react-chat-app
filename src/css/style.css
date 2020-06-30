@@ -1,0 +1,114 @@
+/* signup and login form */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+}
+
+.login-signup-form {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-signup-input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.login-signup-input-fields .login-signup-input {
+  background: transparent;
+  border: 0px;
+  /* border-bottom: 2px solid #c5ecfd; */
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c5ecfd;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c5ecfd;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #c5ecfd;
+}
+
+.login-signup-btn {
+  color: "red";
+  text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  .login-signup-form {
+    width: 80%;
+    padding: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .login-signup-form {
+    width: 90%;
+    padding: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .login-signup-form {
+    width: 95%;
+    padding: 20px;
+  }
+}
+#icon {
+  color: rgba(0, 0, 0, 0.25);
+}
+/* Chat Style*/
+.msg_cotainer {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px;
+  max-width: 150px;
+}
+.msg_send {
+  border-radius: 15px 2px 15px 15px;
+  background-color: #78e08f;
+}
+.msg_recieve {
+  border-radius: 2px 15px 15px 15px;
+  background-color: #82ccdd;
+}
+
+.msg_time {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+.author {
+  font-weight: bold;
+  font-size: x-small;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.content {
+  padding: 0;
+  margin: 0;
+}
